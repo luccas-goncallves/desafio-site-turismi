@@ -2,22 +2,60 @@
 
   font-family: "Josefin Sans", sans-serif;
   color: white;
+  box-sizing: border-box;
 }
+
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid;
-}
-body {
-  height: 100vh;
 }
 
+body {
+  height: 100%;
+}
+
+/*início do header */
+
+header {
+  padding-left: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items:end;
+  justify-content: left;
+  font-size: 30px;
+  background-color: rgba(10, 2, 2, 0.568);
+  margin: 0;
+}
+
+.avião {
+  color: white;
+}
+
+header span{
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  justify-content: baseline;
+  align-items: end;
+}
+
+header img{
+  height: 31px;
+  width: 20px;
+}
+
+/* término o header */
+
+/* início do main */
 .main {
   height: 60vh;
   background-image: url(assets/muralha.webp);
   background-repeat: no-repeat;  
   background-position: center; 
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
 }
 
 .center {
@@ -32,9 +70,9 @@ body {
 }
 
 .china {
-  background-color: white;
   font-size: large;
-  color: red;
+  color: white;
+  font-size: larger;
 }
 
 .titulo {
@@ -47,3 +85,32 @@ body {
 .description {
 text-align: center;
 }
+
+/* término do main */
+
+/* arrumar a parte de baixo */
+
+.baixo {
+  display: flex;
+  color: black;
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  margin-top: -100px;
+}
+
+.caixa-1, .caixa-2, .caixa-3 {
+  display: block;
+  height: 300px;
+  width: 300px;
+  text-align: justify;
+  position: relative;
+  font-size: larger;
+}
+
+img {
+  height: 200px;
+  width: 100%;
+ }
+/*arrumar a parte de baixo */
