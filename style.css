@@ -22,10 +22,12 @@ header {
   flex-direction: row;
   gap: 70px;
   align-items:end;
-  justify-content: left;
   font-size: 30px;
   background-color: rgba(10, 2, 2, 0.568);
   margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
 }
 
 .avião {
